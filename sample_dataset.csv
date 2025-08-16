@@ -1,0 +1,16 @@
+url,label
+https://www.google.com,0
+https://www.github.com,0
+https://www.stackoverflow.com,0
+https://www.microsoft.com,0
+https://www.amazon.com,0
+http://suspicious-banking-site.fake.com/login,1
+http://phishing-paypal.scam.com/verify,1
+http://fake-amazon-login.malicious.org/signin,1
+http://microsoft-security-alert.phish.net/update,1
+http://google-account-suspended.evil.com/verify,1
+https://legitimate-bank.com,0
+https://www.wikipedia.org,0
+http://bit.ly/suspicious-link,1
+http://tinyurl.com/fake-login,1
+https://secure-banking.legitimate.com,0
