@@ -1,0 +1,13 @@
+URL,Is_Phishing,Phishing_Probability,Risk_Level,Confidence,URL_Length,Has_HTTPS,Phishing_Keywords,Num_Dots,Risk_Factors,Analysis_Time_MS
+https://www.microsoft.com,True,0.6683,HIGH,0.6683,25,1,1,2,Contains 1 phishing keywords; URL shortener detected,16.19
+https://www.amazon.com,True,0.7072,HIGH,0.7072,22,1,1,2,Contains 1 phishing keywords,13.62
+https://github.com,False,0.3808,LOW,0.6192,18,1,0,1,,12.57
+http://suspicious-bank-login-verification-urgent-action-required.tk/login.php?user=steal&pass=data,True,0.5079,MEDIUM,0.5079,98,0,1,2,Contains 1 phishing keywords; No HTTPS encryption; Suspicious top-level domain,15.28
+https://paypal-secure-login-verification.ml/signin.php,True,0.8184,CRITICAL,0.8184,54,1,4,2,Contains 4 phishing keywords; Suspicious top-level domain,14.26
+http://apple-id-verification-security.com/login,True,0.819,CRITICAL,0.819,47,0,3,1,Contains 3 phishing keywords; No HTTPS encryption,16.2
+https://www.stackoverflow.com,False,0.3582,LOW,0.6418,29,1,0,2,,16.59
+https://docs.python.org,False,0.4014,MEDIUM,0.5986,23,1,0,2,,17.99
+https://bit.ly/suspicious-link,False,0.232,LOW,0.768,30,1,0,1,URL shortener detected,19.31
+http://192.168.1.1/admin,True,0.7079,HIGH,0.7079,24,0,0,3,No HTTPS encryption; Uses IP address instead of domain,19.82
+https://secure-bank-update-account-info.co.uk/login,True,0.804,CRITICAL,0.804,51,1,4,2,Contains 4 phishing keywords,16.58
+https://linkedin.com/in/user,False,0.2937,LOW,0.7063,28,1,0,1,,17.28

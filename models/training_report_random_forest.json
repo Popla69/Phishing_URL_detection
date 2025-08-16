@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-16T23:16:20.429851",
+  "model_type": "random_forest",
+  "dataset_path": "D:\\Phishing_URL\\Phishing_URL\\phishing_site_urls.csv",
+  "dataset_size": 419380,
+  "feature_count": 40,
+  "training_results": {
+    "train_accuracy": 0.8631909008536411,
+    "test_accuracy": 0.8606037483904811,
+    "precision": 0.9304654181346189,
+    "recall": 0.47840594908952233,
+    "f1_score": 0.6319103387482685,
+    "auc_score": 0.8934307561216783,
+    "classification_report": "              precision    recall  f1-score   support\n\n           0       0.85      0.99      0.91     62898\n           1       0.93      0.48      0.63     20978\n\n    accuracy                           0.86     83876\n   macro avg       0.89      0.73      0.77     83876\nweighted avg       0.87      0.86      0.84     83876\n",
+    "confusion_matrix": "[[62148   750]\n [10942 10036]]",
+    "feature_importance": "                  feature    importance\n30  num_phishing_keywords  1.753033e-01\n31  has_phishing_keywords  1.434273e-01\n19               num_dots  9.497417e-02\n38            digit_ratio  7.902849e-02\n0              url_length  6.694583e-02\n20            num_hyphens  6.455884e-02\n37            vowel_ratio  5.102949e-02\n39     special_char_ratio  4.613037e-02\n22            num_slashes  4.199059e-02\n34            url_entropy  3.731125e-02\n7            query_length  3.639997e-02\n4             path_length  3.117613e-02\n21        num_underscores  2.251352e-02\n5       num_path_segments  1.874753e-02\n36           path_entropy  1.811850e-02\n24        num_equal_signs  1.569302e-02\n28   has_suspicious_chars  1.551308e-02\n23     num_question_marks  1.193392e-02\n8        num_query_params  8.219633e-03\n26         num_ampersands  6.856029e-03\n25           num_at_signs  5.921136e-03\n6               has_query  4.829569e-03\n29           is_shortened  1.479536e-03\n33  has_redirect_patterns  1.246674e-03\n27           has_punycode  4.816663e-04\n35         domain_entropy  4.370393e-05\n10        fragment_length  3.966272e-05\n9            has_fragment  2.541488e-05\n16             tld_length  2.350714e-05\n1           domain_length  2.089472e-05\n12       subdomain_length  8.718010e-06\n11         num_subdomains  6.108779e-06\n14     domain_has_hyphens  1.549891e-06\n17          is_ip_address  5.147859e-07\n3                 has_www  3.838160e-07\n2               has_https  0.000000e+00\n18    is_known_legitimate  0.000000e+00\n15         suspicious_tld  0.000000e+00\n13     domain_has_numbers  0.000000e+00\n32    has_homograph_chars  0.000000e+00"
+  }
+}
